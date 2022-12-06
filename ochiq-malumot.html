@@ -210,7 +210,8 @@
                                     <li><a href="qabul.html">Fuqarolarni qabul qilish tartibi</a></li>
                                     <li><a href="rekvizit.html">Rekvizitlar</a></li>
                                     <li><a href="hokimga-murojaat.html">Hokimga murojaat</a></li>
-                                    <li><a href="korrupsiyaga-qarshi-kurashish.html">Korrupsiyaga qarshi kurashish</a></li>
+                                    <li><a href="korrupsiyaga-qarshi-kurashish.html">Korrupsiyaga qarshi kurashish</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="header__navbar_item">
@@ -232,8 +233,10 @@
                                 <ul>
                                     <li><a href="media-xizmat.html">Media xizmati haqida</a></li>
                                     <li><a href="#">Media rejalar</a></li>
-                                    <li><a href="vebsayt-malumotlar.html">Veb saytda joylashtirilgan ma'lumotlar</a></li>
-                                    <li><a href="./axborot-olish.html">Axborot olish uchun so'rovlarni qabul qilish tartibi</a>
+                                    <li><a href="vebsayt-malumotlar.html">Veb saytda joylashtirilgan ma'lumotlar</a>
+                                    </li>
+                                    <li><a href="./axborot-olish.html">Axborot olish uchun so'rovlarni qabul qilish
+                                            tartibi</a>
                                     </li>
                                 </ul>
                             </li>
@@ -261,7 +264,7 @@
     <main>
         <!-- main slider start -->
         <section class="open-data-page">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 col-xl-9 px-0">
                         <div class="container">
@@ -365,6 +368,24 @@
                                     </td>
                                 </tr>
                             </table>
+                            <div class="copy-elements mb-0">
+                                <div class="date-view order-0">
+                                    <i class="fas fa-calendar"></i>
+                                    <p>
+                                        <span class="hours">00:00</span> / <span class="date">25.04.2022</span>
+                                    </p>
+                                </div>
+                                <button class="copy-button order-2 order-sm-1">
+                                    <i class="fal fa-clone"></i>
+                                    Nusxa olish
+                                </button>
+                                <div class="date-view order-1 order-sm-2">
+                                    <i class="fas fa-eye"></i>
+                                    <p>
+                                        <span class="view-numbers">4918</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-xl-3 px-0">
@@ -372,27 +393,38 @@
                             <table class="fast-connect-parent mb-50">
                                 <tr>
                                     <td class="fast-connect-box">
-                                        <a href="https://regulation.gov.uz/uz/document/index?GlobalSearch%5Btitle%5D=&GlobalSearch%5Bid%5D=&GlobalSearch%5Bauthority_id%5D=7580&GlobalSearch%5Bdocument_type_id%5D=&GlobalSearch%5Bpublication_at_range%5D=&GlobalSearch%5Bdiscussing_status_id%5D=2" class="box">
-                                            <div class="fast-connect-img">
-                                                <img src="img/fast_connect1.png" alt="">
-                                            </div>
-                                            <span class="fast-connect-text">O‘z fikrlaringizni yuboring</span>
+                                        <a href="#" class="box">
+                                            <span class="fast-connect-text">
+                                                Interaktiv xizmatlar
+                                            </span>
                                         </a>
                                     </td>
                                     <td class="fast-connect-box">
-                                        <a href="./hokimga-murojaat.html" class="box">
-                                            <div class="fast-connect-img">
-                                                <img src="img/fast_connect2.png" alt="">
-                                            </div>
-                                            <span class="fast-connect-text">Hokimga murojaat</span>
+                                        <a href="#" class="box">
+                                            <span class="fast-connect-text">
+                                                Fuqarolar murojaati
+                                            </span>
                                         </a>
                                     </td>
                                     <td class="fast-connect-box">
-                                        <a href="./hokimga-murojaat.html" class="box">
-                                            <div class="fast-connect-img">
-                                                <img src="img/fast_connect3.png" alt="">
-                                            </div>
-                                            <span class="fast-connect-text">Muammolar haqida xabar bering</span>
+                                        <a href="#" class="box">
+                                            <span class="fast-connect-text">
+                                                Shahar transporti
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="fast-connect-box">
+                                        <a href="#" class="box">
+                                            <span class="fast-connect-text">
+                                                Litsenziyalash xizmatlari
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td class="fast-connect-box">
+                                        <a href="#" class="box">
+                                            <span class="fast-connect-text">
+                                                Ko'p beriladigan savollar
+                                            </span>
                                         </a>
                                     </td>
                                 </tr>
@@ -440,6 +472,11 @@
                                                 </table>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-12 d-none d-md-block">
+                                    <div class="text-start text-md-end">
+                                        <img src="./img/2022.png" alt="year name" class="year-name-img">
                                     </div>
                                 </div>
                             </div>
@@ -591,7 +628,20 @@
     <!-- ===  Footer End  === -->
     <!-- ========================= -->
 
-
+    <!-- toasts start -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">🔵Foydalanuvchi</strong>
+                <small>Hozir</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body fw-bold">
+                🤗
+            </div>
+        </div>
+    </div>
+    <!-- toasts end -->
 
 
     <script src="./libs/jquery.js"></script>
